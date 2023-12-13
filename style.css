@@ -1,0 +1,56 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../assets/sunny.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+     
+    }
+.container{
+    border-width: 0;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+ 
+   
+}
+ 
+
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+h1{
+    color: red;
+    text-align: center;
+    padding: 40px 0;
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+ 
+ 
+ 
+}
+button{
+   
+    border-radius: 5px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+   
+}
+button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+ 
